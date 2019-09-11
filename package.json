@@ -1,6 +1,6 @@
 {
-  "name": "angular7-pubsub",
-  "version": "2.1.1",
+  "name": "@cmss/angular-pubsub",
+  "version": "8.0.1",
   "description": "Pub/Sub service for Angular 7 and above",
   "main": "./umd/angular7-pubsub.js",
   "module": "./esm/src/index.js",
@@ -20,17 +20,11 @@
   },
   "keywords": [
     "Angular",
-    "Angular 7",
     "pubsub",
     "publisher-subscriber",
     "angular7-service",
     "angular-service"
   ],
-  "author": {
-    "name": "Mohammad Rebati",
-    "email": "m@rebati.net",
-    "url": "http://github.com/mrebati"
-  },
   "contributors": [
     {
       "name": "Mert Susur",
@@ -47,10 +41,6 @@
     }
   ],
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mrebati/angular7-pubsub/issues"
-  },
-  "homepage": "https://github.com/mrebati/angular7-pubsub#readme",
   "dependencies": {
     "@angular/common": "^7.1.4",
     "@angular/compiler": "^7.1.4",
