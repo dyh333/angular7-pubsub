@@ -1,6 +1,6 @@
 {
   "name": "@cmss/angular-pubsub",
-  "version": "8.0.2",
+  "version": "8.1.2",
   "description": "Pub/Sub service for Angular 7 and above",
   "main": "./umd/angular7-pubsub.js",
   "module": "./esm/src/index.js",
