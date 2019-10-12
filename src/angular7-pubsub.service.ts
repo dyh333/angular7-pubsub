@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ReplaySubject, Observable, Subscription } from 'rxjs';
+import { ReplaySubject, Subject, Observable, Subscription } from 'rxjs';
 
 const ServiceName: string = 'PubSub Service';
 
@@ -75,7 +75,8 @@ export class PubSubService implements IPubSubService {
     }
 
     if (this.events[event] === undefined) {
-      this.events[event] = new ReplaySubject<any>();
+      // this.events[event] = new ReplaySubject<any>();
+      this.events[event] = new Subject<any>();
     }
 
     if (typeof callback !== 'function') {
